@@ -10,7 +10,6 @@
 		96DCD6572A9FA2220033CCB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6562A9FA2220033CCB2 /* AppDelegate.swift */; };
 		96DCD6592A9FA2220033CCB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6582A9FA2220033CCB2 /* SceneDelegate.swift */; };
 		96DCD65B2A9FA2220033CCB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD65A2A9FA2220033CCB2 /* ViewController.swift */; };
-		96DCD65E2A9FA2220033CCB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DCD65C2A9FA2220033CCB2 /* Main.storyboard */; };
 		96DCD6602A9FA2230033CCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DCD65F2A9FA2230033CCB2 /* Assets.xcassets */; };
 		96DCD6632A9FA2230033CCB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DCD6612A9FA2230033CCB2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		96DCD6562A9FA2220033CCB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DCD6582A9FA2220033CCB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		96DCD65A2A9FA2220033CCB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96DCD65D2A9FA2220033CCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96DCD65F2A9FA2230033CCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DCD6622A9FA2230033CCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DCD6642A9FA2230033CCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +54,166 @@
 		96DCD6552A9FA2220033CCB2 /* Avito Intern Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				96DCD67B2A9FD4F40033CCB2 /* Networking */,
+				96DCD67C2A9FD4F90033CCB2 /* Services */,
+				96DCD66E2A9FD3930033CCB2 /* Modules */,
+				96DCD66D2A9FD38B0033CCB2 /* Extensions */,
+				96DCD66C2A9FD3800033CCB2 /* Helpers */,
+				96DCD66B2A9FD3680033CCB2 /* Managers */,
+				96DCD66A2A9FD17F0033CCB2 /* Resources */,
+				96DCD65A2A9FA2220033CCB2 /* ViewController.swift */,
+			);
+			path = "Avito Intern Assessment";
+			sourceTree = "<group>";
+		};
+		96DCD66A2A9FD17F0033CCB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				96DCD6562A9FA2220033CCB2 /* AppDelegate.swift */,
 				96DCD6582A9FA2220033CCB2 /* SceneDelegate.swift */,
-				96DCD65A2A9FA2220033CCB2 /* ViewController.swift */,
-				96DCD65C2A9FA2220033CCB2 /* Main.storyboard */,
 				96DCD65F2A9FA2230033CCB2 /* Assets.xcassets */,
 				96DCD6612A9FA2230033CCB2 /* LaunchScreen.storyboard */,
 				96DCD6642A9FA2230033CCB2 /* Info.plist */,
 			);
-			path = "Avito Intern Assessment";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		96DCD66B2A9FD3680033CCB2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		96DCD66C2A9FD3800033CCB2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		96DCD66D2A9FD38B0033CCB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		96DCD66E2A9FD3930033CCB2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				96DCD6702A9FD3CA0033CCB2 /* DetailScreen */,
+				96DCD66F2A9FD3C10033CCB2 /* MainScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		96DCD66F2A9FD3C10033CCB2 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				96DCD6722A9FD3DD0033CCB2 /* Models */,
+				96DCD6752A9FD4130033CCB2 /* Views */,
+				96DCD6762A9FD4180033CCB2 /* ViewModels */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		96DCD6702A9FD3CA0033CCB2 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				96DCD6712A9FD3D70033CCB2 /* Models */,
+				96DCD6732A9FD3F40033CCB2 /* Views */,
+				96DCD6742A9FD3FF0033CCB2 /* ViewModels */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		96DCD6712A9FD3D70033CCB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96DCD6722A9FD3DD0033CCB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96DCD6732A9FD3F40033CCB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96DCD6742A9FD3FF0033CCB2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		96DCD6752A9FD4130033CCB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96DCD6762A9FD4180033CCB2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		96DCD67B2A9FD4F40033CCB2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				96DCD67F2A9FD5250033CCB2 /* Client */,
+				96DCD6802A9FD53A0033CCB2 /* Misc */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		96DCD67C2A9FD4F90033CCB2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				96DCD67D2A9FD50A0033CCB2 /* MainScreenService */,
+				96DCD67E2A9FD5100033CCB2 /* DetailScreenService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		96DCD67D2A9FD50A0033CCB2 /* MainScreenService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainScreenService;
+			sourceTree = "<group>";
+		};
+		96DCD67E2A9FD5100033CCB2 /* DetailScreenService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailScreenService;
+			sourceTree = "<group>";
+		};
+		96DCD67F2A9FD5250033CCB2 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		96DCD6802A9FD53A0033CCB2 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +276,6 @@
 			files = (
 				96DCD6632A9FA2230033CCB2 /* LaunchScreen.storyboard in Resources */,
 				96DCD6602A9FA2230033CCB2 /* Assets.xcassets in Resources */,
-				96DCD65E2A9FA2220033CCB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +295,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		96DCD65C2A9FA2220033CCB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96DCD65D2A9FA2220033CCB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		96DCD6612A9FA2230033CCB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +429,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5WSGR4QBW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Avito Intern Assessment/Info.plist";
+				INFOPLIST_FILE = "Avito Intern Assessment/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +457,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y5WSGR4QBW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Avito Intern Assessment/Info.plist";
+				INFOPLIST_FILE = "Avito Intern Assessment/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
