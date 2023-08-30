@@ -9,19 +9,35 @@
 /* Begin PBXBuildFile section */
 		96DCD6572A9FA2220033CCB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6562A9FA2220033CCB2 /* AppDelegate.swift */; };
 		96DCD6592A9FA2220033CCB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6582A9FA2220033CCB2 /* SceneDelegate.swift */; };
-		96DCD65B2A9FA2220033CCB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD65A2A9FA2220033CCB2 /* ViewController.swift */; };
+		96DCD65B2A9FA2220033CCB2 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD65A2A9FA2220033CCB2 /* MainScreenViewController.swift */; };
 		96DCD6602A9FA2230033CCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DCD65F2A9FA2230033CCB2 /* Assets.xcassets */; };
 		96DCD6632A9FA2230033CCB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DCD6612A9FA2230033CCB2 /* LaunchScreen.storyboard */; };
+		96DCD68B2A9FDAD00033CCB2 /* AvitoEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD68A2A9FDAD00033CCB2 /* AvitoEndpoint.swift */; };
+		96DCD68D2A9FDAFE0033CCB2 /* AvitoServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD68C2A9FDAFE0033CCB2 /* AvitoServiceError.swift */; };
+		96DCD6912A9FDB810033CCB2 /* AvitoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6902A9FDB810033CCB2 /* AvitoRequest.swift */; };
+		96DCD6932A9FEB680033CCB2 /* AvitoServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6922A9FEB680033CCB2 /* AvitoServiceImpl.swift */; };
+		96DCD6952A9FF05B0033CCB2 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6942A9FF05B0033CCB2 /* MainScreenViewModel.swift */; };
+		96DCD6972A9FF0D80033CCB2 /* AvitoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6962A9FF0D80033CCB2 /* AvitoService.swift */; };
+		96DCD6992A9FF5B30033CCB2 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6982A9FF5B30033CCB2 /* GenericViewController.swift */; };
+		96DCD69B2A9FF69A0033CCB2 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD69A2A9FF69A0033CCB2 /* MainScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96DCD6532A9FA2220033CCB2 /* Avito Intern Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avito Intern Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DCD6562A9FA2220033CCB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DCD6582A9FA2220033CCB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		96DCD65A2A9FA2220033CCB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96DCD65A2A9FA2220033CCB2 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		96DCD65F2A9FA2230033CCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96DCD6622A9FA2230033CCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DCD6642A9FA2230033CCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DCD68A2A9FDAD00033CCB2 /* AvitoEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoEndpoint.swift; sourceTree = "<group>"; };
+		96DCD68C2A9FDAFE0033CCB2 /* AvitoServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoServiceError.swift; sourceTree = "<group>"; };
+		96DCD6902A9FDB810033CCB2 /* AvitoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoRequest.swift; sourceTree = "<group>"; };
+		96DCD6922A9FEB680033CCB2 /* AvitoServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoServiceImpl.swift; sourceTree = "<group>"; };
+		96DCD6942A9FF05B0033CCB2 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		96DCD6962A9FF0D80033CCB2 /* AvitoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoService.swift; sourceTree = "<group>"; };
+		96DCD6982A9FF5B30033CCB2 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		96DCD69A2A9FF69A0033CCB2 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				96DCD67B2A9FD4F40033CCB2 /* Networking */,
-				96DCD67C2A9FD4F90033CCB2 /* Services */,
 				96DCD66E2A9FD3930033CCB2 /* Modules */,
 				96DCD66D2A9FD38B0033CCB2 /* Extensions */,
 				96DCD66C2A9FD3800033CCB2 /* Helpers */,
 				96DCD66B2A9FD3680033CCB2 /* Managers */,
 				96DCD66A2A9FD17F0033CCB2 /* Resources */,
-				96DCD65A2A9FA2220033CCB2 /* ViewController.swift */,
 			);
 			path = "Avito Intern Assessment";
 			sourceTree = "<group>";
@@ -88,6 +102,7 @@
 		96DCD66C2A9FD3800033CCB2 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				96DCD6982A9FF5B30033CCB2 /* GenericViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -102,8 +117,8 @@
 		96DCD66E2A9FD3930033CCB2 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				96DCD6702A9FD3CA0033CCB2 /* DetailScreen */,
 				96DCD66F2A9FD3C10033CCB2 /* MainScreen */,
+				96DCD6702A9FD3CA0033CCB2 /* DetailScreen */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -121,6 +136,7 @@
 		96DCD6702A9FD3CA0033CCB2 /* DetailScreen */ = {
 			isa = PBXGroup;
 			children = (
+				96DCD6822A9FD71F0033CCB2 /* Assembly */,
 				96DCD6712A9FD3D70033CCB2 /* Models */,
 				96DCD6732A9FD3F40033CCB2 /* Views */,
 				96DCD6742A9FD3FF0033CCB2 /* ViewModels */,
@@ -159,6 +175,8 @@
 		96DCD6752A9FD4130033CCB2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				96DCD65A2A9FA2220033CCB2 /* MainScreenViewController.swift */,
+				96DCD69A2A9FF69A0033CCB2 /* MainScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -166,6 +184,7 @@
 		96DCD6762A9FD4180033CCB2 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				96DCD6942A9FF05B0033CCB2 /* MainScreenViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -173,47 +192,36 @@
 		96DCD67B2A9FD4F40033CCB2 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				96DCD67F2A9FD5250033CCB2 /* Client */,
+				96DCD67F2A9FD5250033CCB2 /* Service */,
 				96DCD6802A9FD53A0033CCB2 /* Misc */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		96DCD67C2A9FD4F90033CCB2 /* Services */ = {
+		96DCD67F2A9FD5250033CCB2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				96DCD67D2A9FD50A0033CCB2 /* MainScreenService */,
-				96DCD67E2A9FD5100033CCB2 /* DetailScreenService */,
+				96DCD6962A9FF0D80033CCB2 /* AvitoService.swift */,
+				96DCD6922A9FEB680033CCB2 /* AvitoServiceImpl.swift */,
 			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		96DCD67D2A9FD50A0033CCB2 /* MainScreenService */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MainScreenService;
-			sourceTree = "<group>";
-		};
-		96DCD67E2A9FD5100033CCB2 /* DetailScreenService */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DetailScreenService;
-			sourceTree = "<group>";
-		};
-		96DCD67F2A9FD5250033CCB2 /* Client */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Client;
+			path = Service;
 			sourceTree = "<group>";
 		};
 		96DCD6802A9FD53A0033CCB2 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				96DCD68C2A9FDAFE0033CCB2 /* AvitoServiceError.swift */,
+				96DCD68A2A9FDAD00033CCB2 /* AvitoEndpoint.swift */,
+				96DCD6902A9FDB810033CCB2 /* AvitoRequest.swift */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		96DCD6822A9FD71F0033CCB2 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DCD65B2A9FA2220033CCB2 /* ViewController.swift in Sources */,
+				96DCD6932A9FEB680033CCB2 /* AvitoServiceImpl.swift in Sources */,
+				96DCD68B2A9FDAD00033CCB2 /* AvitoEndpoint.swift in Sources */,
+				96DCD6992A9FF5B30033CCB2 /* GenericViewController.swift in Sources */,
+				96DCD65B2A9FA2220033CCB2 /* MainScreenViewController.swift in Sources */,
 				96DCD6572A9FA2220033CCB2 /* AppDelegate.swift in Sources */,
+				96DCD6972A9FF0D80033CCB2 /* AvitoService.swift in Sources */,
+				96DCD6912A9FDB810033CCB2 /* AvitoRequest.swift in Sources */,
+				96DCD69B2A9FF69A0033CCB2 /* MainScreenView.swift in Sources */,
+				96DCD6952A9FF05B0033CCB2 /* MainScreenViewModel.swift in Sources */,
+				96DCD68D2A9FDAFE0033CCB2 /* AvitoServiceError.swift in Sources */,
 				96DCD6592A9FA2220033CCB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
