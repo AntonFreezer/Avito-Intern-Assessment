@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9616C1372AA112750004D57E /* Advertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9616C1362AA112750004D57E /* Advertisement.swift */; };
 		9616C1392AA112E00004D57E /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9616C1382AA112E00004D57E /* Details.swift */; };
+		9616C13C2AA1138F0004D57E /* UIView +.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9616C13B2AA1138F0004D57E /* UIView +.swift */; };
+		9616C13E2AA1146B0004D57E /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9616C13D2AA1146B0004D57E /* ImageManager.swift */; };
 		96DCD6572A9FA2220033CCB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6562A9FA2220033CCB2 /* AppDelegate.swift */; };
 		96DCD6592A9FA2220033CCB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD6582A9FA2220033CCB2 /* SceneDelegate.swift */; };
 		96DCD65B2A9FA2220033CCB2 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DCD65A2A9FA2220033CCB2 /* MainScreenViewController.swift */; };
@@ -27,6 +29,8 @@
 /* Begin PBXFileReference section */
 		9616C1362AA112750004D57E /* Advertisement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertisement.swift; sourceTree = "<group>"; };
 		9616C1382AA112E00004D57E /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		9616C13B2AA1138F0004D57E /* UIView +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView +.swift"; sourceTree = "<group>"; };
+		9616C13D2AA1146B0004D57E /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		96DCD6532A9FA2220033CCB2 /* Avito Intern Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avito Intern Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DCD6562A9FA2220033CCB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96DCD6582A9FA2220033CCB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9616C13A2AA1137E0004D57E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				9616C13B2AA1138F0004D57E /* UIView +.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		96DCD64A2A9FA2220033CCB2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +111,7 @@
 		96DCD66B2A9FD3680033CCB2 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				9616C13D2AA1146B0004D57E /* ImageManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -114,6 +127,7 @@
 		96DCD66D2A9FD38B0033CCB2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9616C13A2AA1137E0004D57E /* UIKit */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -303,8 +317,10 @@
 				96DCD6932A9FEB680033CCB2 /* AvitoServiceImpl.swift in Sources */,
 				96DCD68B2A9FDAD00033CCB2 /* AvitoEndpoint.swift in Sources */,
 				96DCD6992A9FF5B30033CCB2 /* GenericViewController.swift in Sources */,
+				9616C13C2AA1138F0004D57E /* UIView +.swift in Sources */,
 				96DCD65B2A9FA2220033CCB2 /* MainScreenViewController.swift in Sources */,
 				96DCD6572A9FA2220033CCB2 /* AppDelegate.swift in Sources */,
+				9616C13E2AA1146B0004D57E /* ImageManager.swift in Sources */,
 				9616C1372AA112750004D57E /* Advertisement.swift in Sources */,
 				96DCD6972A9FF0D80033CCB2 /* AvitoService.swift in Sources */,
 				96DCD6912A9FDB810033CCB2 /* AvitoRequest.swift in Sources */,
